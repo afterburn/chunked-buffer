@@ -1,6 +1,6 @@
 {
   "name": "chunked-buffer",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Small function you can wrap fs.createReadStream with to get fixed size data chunks",
   "main": "index.js",
   "scripts": {},
@@ -18,5 +18,5 @@
   "bugs": {
     "url": "https://github.com/afterburn/chunked-buffer/issues"
   },
-  "homepage": "https://github.com/afterburn/chunked-buffer#readme"
+  "homepage": "https://github.com/afterburn/chunked-buffer"
 }
