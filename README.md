@@ -1,7 +1,10 @@
 # chunked-buffer
 [![Downloads](https://img.shields.io/npm/dt/chunked-buffer.svg)]()
 
-Small function you can wrap fs.createReadStream with to get fixed size data chunks.
+#### Small function you can wrap fs.createReadStream with to get fixed size data chunks.
+
+chunked-buffer basically modifies stream.Readable's 'data' event to make it so that instead of getting randomly sized chunks you will now get chunks with a fixed size. 
+
 
 ### Usage
 ```javascript
