@@ -3,7 +3,7 @@
 
 #### Small function you can wrap fs.createReadStream with to get fixed size data chunks.
 
-*chunked-buffer* modifies the stream.Readable 'data' event to make so that chunks will have a fixed amount of bytes instead of getting randomly sized chunks. This can be useful if the target you pipe to expects a certain amount of bytes or if that target has a byte limitation (a udp packet for example).
+*chunked-buffer* modifies the stream.Readable 'data' event to make so that chunks will have a fixed amount of bytes instead of getting randomly sized chunks. This can be extremely helpful if the target you pipe to expects a certain amount of bytes or if that target has a byte limitation (a udp packet for example).
 
 
 ### Usage
