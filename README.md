@@ -8,7 +8,7 @@ Small function you can wrap fs.createReadStream with to get fixed size data chun
 const chunked = require('chunked-buffer')
 const rs = chunked(fs.createReadStream('path/to/file'), { chunkSize: 20000 })
 
-chunked.on('data', (chunk) => {
+rs.on('data', (chunk) => {
   // chunk is a Buffer with a size of 20000 bytes.
 })
 ```
