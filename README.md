@@ -1,5 +1,6 @@
 # chunked-buffer
 [![Downloads](https://img.shields.io/npm/dt/chunked-buffer.svg)]()
+
 Small function you can wrap fs.createReadStream with to get fixed size data chunks
 
 ### Usage
