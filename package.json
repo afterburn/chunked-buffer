@@ -1,6 +1,6 @@
 {
   "name": "chunked-buffer",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Small function you can wrap fs.createReadStream with to get fixed size data chunks",
   "main": "index.js",
   "scripts": {},
